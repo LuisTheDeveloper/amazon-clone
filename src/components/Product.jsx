@@ -5,7 +5,7 @@ export const Product = ({title, image, price, rating}) => {
 	return (
 		<div className='product'>
 			<div className='produc_info'>
-				<p>{title}</p>
+				<p className='product_title'>{title}</p>
 				<p className='product_price'>
 					<small>£</small>
 					<strong>{price}</strong>
