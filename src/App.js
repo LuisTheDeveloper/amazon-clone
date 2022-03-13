@@ -1,14 +1,12 @@
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
+import AppRouter from './router/router';
 
 function App() {
-  return (
-    <div className="app">
-      <Header/>
-      <Home/>
-    </div>
-  );
+	return (
+		<div className="app">
+			<AppRouter/>
+		</div>
+	);
 }
 
 export default App;
