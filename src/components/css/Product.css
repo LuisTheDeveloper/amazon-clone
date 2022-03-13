@@ -31,8 +31,13 @@
     display: flex;
 }
 
+.product_title {
+    margin: 0;
+}
+
 .product_price {
     margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .product_info {
