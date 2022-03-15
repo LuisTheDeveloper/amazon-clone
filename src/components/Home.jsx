@@ -51,7 +51,7 @@ export const Home = () => {
 
 				<div className='home_row'>
 					<Product
-						id="963258"
+						id="753357"
 						image='https://m.media-amazon.com/images/I/61RWFN4kEmL._AC_SX679_.jpg'
 						price={1999}
 						rating={4}
