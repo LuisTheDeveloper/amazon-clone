@@ -4,6 +4,7 @@ import Checkout from '../components/Checkout';
 
 import Header from '../components/Header';
 import Home from '../components/Home';
+import Login from '../components/Login';
 
 export const AppRouter = () => {
 	return (
@@ -16,6 +17,7 @@ export const AppRouter = () => {
 					</>
 				    }>                     
 				</Route>
+				<Route path="/login" element={<Login/>}></Route> 				
 				<Route path="/checkout" element={
 					<>
 						<Header/>
