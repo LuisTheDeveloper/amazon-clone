@@ -4,6 +4,7 @@ import Checkout from '../components/Checkout';
 import Header from '../components/Header';
 import Home from '../components/Home';
 import Login from '../components/Login';
+import Payment from '../components/Payment';
 import { auth, onAuthStateChanged } from '../firebase';
 import { useStateValue } from '../StateProvider';
 
@@ -43,7 +44,13 @@ export const AppRouter = () => {
 						<Header/>
 						<Checkout/>
 					</>
-				    }></Route>                   
+				    }></Route>
+				<Route path='/payment' element={
+					<>
+						<Header/>
+						<Payment/>
+					</>
+				}></Route>
 			</Routes>
 		</BrowserRouter>
 	)
