@@ -8,7 +8,5 @@
     
 ![image](https://user-images.githubusercontent.com/47012647/158321092-3e3d96fb-45fb-4500-9584-1ce263d249c2.png)
     
-<b> Checkout page: <b/>    
-    
-![image](https://user-images.githubusercontent.com/47012647/159440184-24fb8bab-acea-4f8b-8721-f10d01ddd846.png)
+
     
