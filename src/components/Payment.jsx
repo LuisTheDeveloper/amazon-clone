@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useStateValue } from '../StateProvider'
 import CheckoutProduct from './CheckoutProduct'
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js'
@@ -9,6 +9,7 @@ import { getBasketTotal } from '../reducer'
 import axios from 'axios'
 
 export const Payment = () => {
+	const navigate = useNavigate()
 	const [{basket, user}, dispatch] = useStateValue()
 
 	const [error, setError] = useState(null)
@@ -44,13 +45,14 @@ export const Payment = () => {
 				card: elements.getElement(CardElement)
 			}
 		}).then(({ paymentIntent}) => {
-			// payment confirmation
+			// paymentIntent = payment confirmation
 
 			setSucceeded(true)
 			setError(null)
 			setProcessing(false)
 
 			//navigate to orders page
+			navigate('/orders')
 		})
 	}
 
