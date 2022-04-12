@@ -6,7 +6,7 @@ import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js'
 import './css/Payment.css'
 import CurrencyFormat from 'react-currency-format'
 import { getBasketTotal } from '../reducer'
-import axios from 'axios'
+import axios from '../axios'
 
 export const Payment = () => {
 	const navigate = useNavigate()
