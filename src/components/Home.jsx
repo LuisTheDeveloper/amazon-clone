@@ -19,7 +19,7 @@ export const Home = () => {
 					<Product
 						id="234567"
 						image='https://m.media-amazon.com/images/I/61etD4-IrPL._AC_SX450_.jpg'
-						price={239}
+						price={239.99}
 						rating={4}
 						title='Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-Beater, Dough Hook and Whisk, 5 Litre Glass Bowl'                
 					/>
@@ -53,7 +53,7 @@ export const Home = () => {
 					<Product
 						id="753357"
 						image='https://m.media-amazon.com/images/I/61RWFN4kEmL._AC_SX679_.jpg'
-						price={1999}
+						price={1999.99}
 						rating={4}
 						title='ASUS ROG Strix G732LXS Full HD 300 Hz 17.3 Inch Gaming Laptop (Intel Core i7-10875H, NVIDIA GeForce RTX 2080 Super 8 GB, 32 GB RAM, 1 TB M.2 NVMe PCIe 3.0 SSD, Wi-Fi 6, Windows 10)'                
 					/>	  

@@ -8,6 +8,10 @@ import CurrencyFormat from 'react-currency-format'
 import { getBasketTotal } from '../reducer'
 import axios from '../axios'
 
+const roundToTwo = (num) => {    
+	return +(Math.round(num + "e+2")  + "e-2");
+}
+
 export const Payment = () => {
 	const navigate = useNavigate()
 	const [{basket, user}, dispatch] = useStateValue()
@@ -19,13 +23,15 @@ export const Payment = () => {
 	const [clientSecret, setClientSecret] = useState(true)
 
 	useEffect(() => {
+		const total = roundToTwo(getBasketTotal(basket) * 100)
+
 		// generate special stripe secret anytime the basket changes which allows us 
 		// to charge a customer
 		const getClientSecret = async () => {
 			const response = await axios({
 				method: 'post',
 				// Stripe expects the total in currencies subunits
-				url: `/payments/create?total=${getBasketTotal(basket) * 100}`
+				url: `/payments/create?total=${total}`
 			})
 			setClientSecret(response.data.clientSecret)
 		}
@@ -33,6 +39,8 @@ export const Payment = () => {
 		getClientSecret()
 	},[basket])
 	
+	console.log("secret ", clientSecret)
+
 	const stripe = useStripe()
 	const elements = useElements()
 
@@ -51,8 +59,7 @@ export const Payment = () => {
 			setError(null)
 			setProcessing(false)
 
-			//navigate to orders page
-			navigate('/orders')
+			navigate('/')
 		})
 	}
 
