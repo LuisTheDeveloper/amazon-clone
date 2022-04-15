@@ -1,5 +1,15 @@
 <h1> Amazon Clone </h1>
 
+<h3>Technologies used: </h3>
+
+<b> Firebase </b>
+<br>
+![image](https://user-images.githubusercontent.com/47012647/163549260-25d3b763-7361-4b24-b5de-e6fabe7954a9.png)
+
+<b> Integration with Stripe payments </b>
+<br>
+![image](https://user-images.githubusercontent.com/47012647/163549399-925e8bb3-a164-4bd3-a912-c3f0291cc1f1.png)
+
 <b> Landing Page: <b/>
 
 ![image](https://user-images.githubusercontent.com/47012647/158071006-8d599e5e-2dbb-420b-966c-2cd7704ed771.png)
