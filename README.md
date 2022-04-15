@@ -29,4 +29,5 @@
 <b> Integration with Stripe payments </b>
 <br>
 ![image](https://user-images.githubusercontent.com/47012647/163549662-ddbdea9a-8025-4cfa-96f2-2d76b3cca2af.png)
-  
+ <br>
+![image](https://user-images.githubusercontent.com/47012647/163551752-6264c71b-719b-4124-a294-59bf43d56e5f.png)
