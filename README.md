@@ -6,7 +6,7 @@
 <br>
 ![image](https://user-images.githubusercontent.com/47012647/163549260-25d3b763-7361-4b24-b5de-e6fabe7954a9.png)
 
-<b> Integration with Stripe payments </b>
+<b> Stripe payments platform</b>
 <br>
 ![image](https://user-images.githubusercontent.com/47012647/163549399-925e8bb3-a164-4bd3-a912-c3f0291cc1f1.png)
 
@@ -25,3 +25,8 @@
 <b> Checkout Page: <b/>
     
 ![image](https://user-images.githubusercontent.com/47012647/159440623-4d2da0d9-c185-4030-9f24-92aee487497b.png)
+
+<b> Integration with Stripe payments </b>
+<br>
+![image](https://user-images.githubusercontent.com/47012647/163549662-ddbdea9a-8025-4cfa-96f2-2d76b3cca2af.png)
+  
